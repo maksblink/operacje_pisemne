@@ -4,11 +4,11 @@ from dzialania.mnozenie import mnozonko
 from dzialania.odejmowanie import odejmowanko
 
 if __name__ == '__main__':
-    liczba = dodawanko("270000000000000000000000000000", "3")
+    liczba = dodawanko("2700000000000000000", "3")
     print(liczba)
-    liczba = mnozonko("0", "1")
+    liczba = mnozonko("99999", "23432451")
     print(liczba)
-    liczba = odejmowanko("1999999999999999999999", "8")
+    liczba = odejmowanko("19999999999", "8")
     print(liczba)
-    liczba = dzielonko("3", "999")
+    liczba = dzielonko("3", "99")
     print(liczba)
